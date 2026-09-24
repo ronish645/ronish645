@@ -23,4 +23,4 @@ I own the **AI application layer**: agent orchestration with LangGraph, local LL
 
 ---
 
-📫 [LinkedIn](https://www.linkedin.com/in/ronish-shrestha-b24884260/) · ronishxtha04@gmail.com
+ [LinkedIn](https://www.linkedin.com/in/ronish-shrestha-b24884260/) · ronishxtha04@gmail.com
