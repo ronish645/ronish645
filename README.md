@@ -11,15 +11,17 @@ I'm looking for **Forward Deployed Engineer / AI Application Engineer / Solution
 **[RestroPilot](https://github.com/sushanthum616/RestroPilot)** (team capstone): a multi-agent AI system for restaurant operations.
 I own the **AI application layer**: agent orchestration with LangGraph, local LLMs via Ollama, RAG over restaurant data, tool-calling into the backend API, and an evaluation harness.
 
+**[MiniLang](https://github.com/ronish645/minilang-compiler)** · **[Live demo →](https://ronish645.github.io/minilang-compiler/)**: can an LLM learn a programming language it has never seen?
+I wrote a compiler from scratch in Python (lexer → parser → gradual type checker → three-address code → sandboxed interpreter) and turned the language into an uncontaminated LLM benchmark: Claude, GPT and a local Qwen model learn it from the spec and debug through a compiler-as-tool agent loop, across 890 graded episodes. It also ships an MCP server, and a site where the compiler runs in your browser via Pyodide.
+
 ####  Other work
 
 - **[Yaadon](#)**: full-stack storefront built for a real client (auth, inventory workspace, Stripe checkout, security hardening)
-- **[MiniLang Compiler](https://github.com/ronish645/minilang-compiler)**: a compiler for a small language written from scratch in Python, going lexer → parser → semantic analysis → three-address code → interpreter
 - **[Bay Area Pollution & Health Analysis](https://github.com/ronish645/bay-area-data-projects)**: EDA, geospatial maps and ML models (Random Forest / Gradient Boosting) on CalEnviroScreen data
 
 ####  Toolbox
 
-`Python` · `LangGraph` · `Ollama` · `RAG` · `FastAPI` · `JavaScript / Node` · `SQL` · `pandas` · `scikit-learn` · `Git`
+`Python` · `LangGraph` · `Ollama` · `RAG` · `MCP` · `FastAPI` · `pytest` · `JavaScript / Node` · `React` · `SQL` · `pandas` · `scikit-learn` · `Git`
 
 ---
 
