@@ -11,8 +11,8 @@ I'm looking for **Forward Deployed Engineer / AI Application Engineer / Solution
 **[RestroPilot](https://github.com/sushanthum616/RestroPilot)** (team capstone): a multi-agent AI system for restaurant operations.
 I own the **AI application layer**: agent orchestration with LangGraph, local LLMs via Ollama, RAG over restaurant data, tool-calling into the backend API, and an evaluation harness.
 
-**[MiniLang](https://github.com/ronish645/minilang-compiler)** · **[Live demo →](https://ronish645.github.io/minilang-compiler/)**: can an LLM learn a programming language it has never seen?
-I wrote a compiler from scratch in Python (lexer → parser → gradual type checker → three-address code → sandboxed interpreter) and turned the language into an uncontaminated LLM benchmark: Claude, GPT and a local Qwen model learn it from the spec and debug through a compiler-as-tool agent loop, across 890 graded episodes. It also ships an MCP server, and a site where the compiler runs in your browser via Pyodide.
+**[MiniLang](https://github.com/ronish645/minilang-compiler)** · **[Live demo →](https://ronish645.github.io/minilang-compiler/)** · **[REST API →](https://minilang-api.onrender.com/docs)**: can an LLM learn a programming language it has never seen?
+I wrote a compiler from scratch in Python (lexer → parser → gradual type checker → three-address code → sandboxed interpreter) and turned the language into an uncontaminated LLM benchmark: Claude, GPT and a local Qwen model learn it from the spec and debug through a compiler-as-tool agent loop, across 890 graded episodes. It also ships an MCP server, a site where the compiler runs in your browser via Pyodide, and a rate-limited FastAPI service (Docker, deployed on Render) hardened against hostile programs.
 
 ####  Other work
 
