@@ -17,7 +17,7 @@ I wrote a compiler from scratch in Python (lexer → parser → gradual type che
 ####  Other work
 
 - **[Yaadon](#)**: full-stack storefront built for a real client (auth, inventory workspace, Stripe checkout, security hardening)
-- **[Bay Area Pollution & Health Analysis](https://github.com/ronish645/bay-area-data-projects)**: EDA, geospatial maps and ML models (Random Forest / Gradient Boosting) on CalEnviroScreen data
+- **[BayAir — Bay Area Pollution & Asthma](https://github.com/ronish645/bay-area-data-projects)** · **[Live demo →](https://ronish645.github.io/bay-area-data-projects/)**: an interactive study of 1,581 census tracts across nine Bay Area counties, with county comparisons, maps, and ML evaluation using held-out counties and 5 km spatial buffers.
 
 ####  Toolbox
 
@@ -26,3 +26,4 @@ I wrote a compiler from scratch in Python (lexer → parser → gradual type che
 ---
 
  [LinkedIn](https://www.linkedin.com/in/ronish-shrestha-b24884260/) · ronishxtha04@gmail.com
+
